@@ -22,21 +22,20 @@ export const environment = {
         verbose: false
     },
     frontConfig: {
-       coin: 'EOS',
+       coin: 'REM',
        tokenContract: 'eosio.token',
        totalBalance: 'EOS',
        convertToUSD: true,
        customBalance: false,
-       logo: '/assets/images/eosweb.png',
+       logo: '/assets/images/logo.png',
        name: {
-          big: 'eos',
-          small: 'web'
+          big: 'Explorer',
+          small: 'testnet'
        },
-       nets: [{ name: 'Mainnet', url: 'https://eosweb.net', active: true },
-              { name: 'Jungle', url: 'https://jungle.eosweb.net', active: false }],
+       nets: [{ name: 'Testnet', url: 'https://eosweb.net', active: true }],
        disableNets: false,
        voteDonationAcc: 'eoswebnetbp1',
-       disableVoteDonation: false,
+       disableVoteDonation: true,
        version: '2.2.8',
        producers: 1000
     }
